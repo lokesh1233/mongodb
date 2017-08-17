@@ -5,6 +5,7 @@ from pyvirtualdisplay import Display
 import os
 import time
 import chatbat
+import classification
 import sys;
 #===============================================================================
 # reload(sys);
@@ -43,7 +44,13 @@ class Whatsapp:
 				oMsg=self.browser.find_elements_by_class_name('msg')
 				msg = str(oMsg[len(oMsg)-1].text.split('\n')[0])
 				if msg != self.lastMsg:
-					self.lastMsg = str(chatbat.chatbotResponse(msg))
+					try:
+						if (msg.index('male') or msg.index('female')):
+							self.lastMsg = classification.genderText(msg.split(' ')[0])
+						else:
+							self.lastMsg = str(chatbat.chatbotResponse(msg))
+					except:
+						self.lastMsg = str(chatbat.chatbotResponse(msg))
 					elem1[0].send_keys(self.lastMsg)
 					self.browser.find_element_by_class_name('compose-btn-send').click()
 			except:

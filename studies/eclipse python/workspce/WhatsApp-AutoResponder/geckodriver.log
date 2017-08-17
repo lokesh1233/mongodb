@@ -762,3 +762,162 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
+1502691758190	geckodriver	INFO	geckodriver 0.18.0
+1502691758190	geckodriver	INFO	Listening on 127.0.0.1:53270
+1502691760169	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502691764808	Marionette	INFO	Listening on port 53277
+1502691765450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502693374684	geckodriver	INFO	geckodriver 0.18.0
+1502693374700	geckodriver	INFO	Listening on 127.0.0.1:53390
+1502693376744	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502693380932	Marionette	INFO	Listening on port 53396
+1502693381332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502706298078	geckodriver	INFO	geckodriver 0.18.0
+1502706298093	geckodriver	INFO	Listening on 127.0.0.1:55453
+1502706299703	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502706306121	Marionette	INFO	Listening on port 55459
+1502706307122	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502796990080	geckodriver	INFO	geckodriver 0.18.0
+1502796990089	geckodriver	INFO	Listening on 127.0.0.1:49742
+1502796992287	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502796999644	Marionette	INFO	Listening on port 49749
+1502797000222	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1502798549268	geckodriver	INFO	geckodriver 0.18.0
+1502798549279	geckodriver	INFO	Listening on 127.0.0.1:51426
+1502798551343	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502798556060	Marionette	INFO	Listening on port 51433
+1502798556634	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1502798782161	geckodriver	INFO	geckodriver 0.18.0
+1502798782170	geckodriver	INFO	Listening on 127.0.0.1:51670
+1502798784215	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502798788238	Marionette	INFO	Listening on port 51676
+1502798788611	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1502799131778	Marionette	INFO	Ceased listening
+1502799132991	geckodriver::marionette	ERROR	Failed to kill browser process
+1502856538150	geckodriver	INFO	geckodriver 0.18.0
+1502856538166	geckodriver	INFO	Listening on 127.0.0.1:53462
+1502856539912	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502856546006	Marionette	INFO	Listening on port 53468
+1502856546437	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502870717144	Marionette	INFO	Ceased listening
+1502870725941	geckodriver::marionette	ERROR	Failed to kill browser process
+1502902064332	geckodriver	INFO	geckodriver 0.18.0
+1502902064332	geckodriver	INFO	Listening on 127.0.0.1:56706
+1502902066272	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502902072946	Marionette	INFO	Listening on port 56713
+1502902073635	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8E0008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1502902683240	Marionette	INFO	Ceased listening
+1502902684897	geckodriver::marionette	ERROR	Failed to kill browser process
+1502944628348	geckodriver	INFO	geckodriver 0.18.0
+1502944628348	geckodriver	INFO	Listening on 127.0.0.1:50128
+1502944630238	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502944636233	Marionette	INFO	Listening on port 50135
+1502944636793	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

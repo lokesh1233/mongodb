@@ -1,21 +1,21 @@
-import chatterbot
-
-
 from chatterbot import ChatBot
 
 chatbot = ChatBot(
-    'Ron Obvious',
-    trainer='chatterbot.trainers.ChatterBotCorpusTrainer',
-    logic_adapters=[
-        'chatterbot.logic.MathematicalEvaluation',
-        'chatterbot.logic.TimeLogicAdapter',
-        "chatterbot.logic.BestMatch"
-    ],
+    'Lokesh',
+    trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
+    #===========================================================================
+    # logic_adapters=[
+    #     'chatterbot.logic.MathematicalEvaluation',
+    #     "chatterbot.logic.BestMatch"
+    # ],
+    #===========================================================================
 )
 
 # Train based on the english corpus
 chatbot.train("chatterbot.corpus.english")
 
+#train custom
+#chatbot.train("chatterbot.corpus.custom")
 
 def chatbotResponse(msg):
     return chatbot.get_response(msg)
