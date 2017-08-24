@@ -20,5 +20,14 @@ chatbot.train("chatterbot.corpus.english")
 def chatbotResponse(msg):
     return chatbot.get_response(msg)
 
+import time
+
+while(1):
+    messageVal='Hi'
+    print(chatbot.get_response(messageVal))
+    time.sleep(10)
+    
+
+
 # Get a response to an input statement
 #print(chatbot.get_response("Hello, how are you today?"))

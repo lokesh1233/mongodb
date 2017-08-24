@@ -40,6 +40,7 @@ class Whatsapp:
 				'//span[contains(text(),"%s")]'%name
 				)			
 				elem.click()
+				#self.lastMsg=''
 				elem1 = self.browser.find_elements_by_class_name('input')
 				oMsg=self.browser.find_elements_by_class_name('msg')
 				msg = str(oMsg[len(oMsg)-1].text.split('\n')[0])
