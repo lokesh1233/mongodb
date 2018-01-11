@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<!-- <script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script> -->
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script src="https://s3.amazonaws.com/stitch-sdks/js/library/v2/stable/stitch.min.js"></script>
+<script>
+  const client = new stitch.StitchClient('test-qtbxn');
+  const db = client.service('mongodb', 'mongodb-atlas').db('VRNH');
+//  client.login('yell.nagalokesh@gmail.com', 'lokesh.12').then(function(){debugger;})
+  
+  client.login('yell.nagalokesh@gmail.com', 'lokesh.12'/* ).then(() =>
+    db.collection('ZParam_fiori').insertOne({Domain: 'IDProffList', modeNum: 'VD', modeTxt: 'Voter ID', other1:'', other2:'',  ActivationInd:'' })
+   */).then(()=>
+    db.collection('LicenseRegion').find({}).execute()
+  ).then(docs => {
+	  var html = docs.map(c => '<div>' + c.LicncRegion + '</div>').join('');
+      document.getElementById('content').innerHTML = html;
+    console.log("Found docs", docs)
+    console.log("[MongoDB Stitch] Connected to Stitch")
+  }).catch(err => {
+    console.error(err)
+  }); 
+</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
+
